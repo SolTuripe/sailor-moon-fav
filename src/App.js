@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div>
-      <h1>Sailor Scouts</h1>
+      <h1 className="app-title">Sailor Scouts</h1>
     <div className="App">
      {
        listaSailor.map((e) =>
