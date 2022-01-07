@@ -1,4 +1,5 @@
 # Sailor Scouts 🌙
+
 A little exercise to practice react. \
 This project shows my favorite sailor scouts using a fake api ✨
 
