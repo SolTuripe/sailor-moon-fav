@@ -1,0 +1,14 @@
+.app-title {
+  font-family: WishMF;
+  font-size: 5rem;
+  color: rgb(198, 201, 58);
+  -webkit-text-stroke: 0.1px rgb(70, 9, 78);
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
