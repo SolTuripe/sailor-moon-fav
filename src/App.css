@@ -1,52 +1,24 @@
 @font-face {
   font-family: "WishMF";
-  src: url("../public/WishMF.ttf") format("truetype");
+  src: url("./assets/font/WishMF.ttf") format("truetype");
 }
 
 body {
-  background-image: linear-gradient(
-    to top,
-    #a7a6cb 0%,
-    #8989ba 52%,
-    #8989ba 100%
-  );
+  background-image: url("./assets/img/starsw.jpg");
+  background-size: cover;
 }
 
 .app-title {
   font-family: WishMF;
-  font-size: 50px;
-  -webkit-text-fill-color: 5px black;
-  -webkit-text-stroke: 0.1px rgb(124, 24, 103);
+  font-size: 5rem;
+  color: rgb(198, 201, 58);
+  -webkit-text-stroke: 0.1px rgb(70, 9, 78);
   text-align: center;
 }
 
 .App {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  padding: 20px;
-}
-
-.sailorCard {
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.name {
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.identity {
-  font-size: 20px;
-  text-align: center;
-  padding: 10px;
-}
-
-.imagen {
-  display: block;
-  width: 40%;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
