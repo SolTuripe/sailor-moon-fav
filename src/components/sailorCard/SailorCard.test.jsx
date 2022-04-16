@@ -3,7 +3,7 @@ import { render } from "@testing-library/react";
 import SailorCard from "./SailorCard";
 
 describe("SailorCard", () => {
-  it("Must display props", () => {
+  it("render sailorCard with props", () => {
     const props = {
       name: "name",
       img: "",
