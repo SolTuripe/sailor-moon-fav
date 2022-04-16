@@ -1,12 +1,12 @@
 import React from "react";
 import "./sailorCard.css";
 
-const SailorCard = (props) => {
+const SailorCard = ({ name, img, identity }) => {
   return (
     <div className="sailorCard">
-      <div className="name">{props.name}</div>
-      <img className="imagen" src={props.img} alt="" />
-      <div className="identity">Identity: {props.identity}</div>
+      <div className="name">{name}</div>
+      <img className="imagen" src={img} alt="" data-testid="img" />
+      <div className="identity">Identity: {identity}</div>
     </div>
   );
 };
